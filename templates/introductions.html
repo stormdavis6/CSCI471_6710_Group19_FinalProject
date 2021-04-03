@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" type="text/css" href="src/stylesheet.css">
+</head>
+<body>
+    {% extends "template.html" %}
+    {% block content %}
+    <!-- Start writing regular html here -->
+
+    <div class="intro">
+        <h2 class="name">Storm Davis</h2>
+        <ul>
+            <li>I'm a software engineering graduate student.</li>
+            <li>When I'm not coding or doing school work, I enjoy going
+                to the gym, playing video games with friends, and hunting/shooting.</li>
+        </ul>
+        <h2 class="name">Avery Cripe</h2>
+        <ul>
+            <li>I am a first-year graduate student at East Carolina University majoring in Software Engineering.</li>
+            <li>I have taken this same course during my undergraduate degree and decided to take the course again during my graduate degree to reinforce what I have previously learned.</li>
+        </ul>
+        <h2 class="name">Maryam Navaei</h2>
+        <ul>
+            <li>I'm a software engineering graduate student.</li>
+            <li>I like to paint, go camping, travel and watch movies in my free time</li>
+        </ul>
+    </div>
+
+    <!-- Stop writing regular html here -->
+    {% endblock %}
+</body>
+</html>

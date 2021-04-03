@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+
+    <link rel="stylesheet" href="{{ url_for('static',	filename='css/stylesheet.css') }}">
+</head>
+<body>
+    {% extends "template.html" %}
+    {% block content %}
+    <!-- Write regular html starting here -->
+
+    <h1>Welcome to our CSCI 4710/6710 Final Project: Group 19</h1>
+    <h2>CookBook</h2>
+
+    <img src="static/Gordon.jpg">
+
+    <p class="disclaimer">*we are in no way endorsed by Gordon Ramsay*</p>
+    <!-- Stop writing regular html here -->
+    {% endblock %}
+</body>
+</html>
